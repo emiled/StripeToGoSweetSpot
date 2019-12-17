@@ -54,8 +54,6 @@ let customerCount = 0;
               shipID: ""
             }
 
-            //check if email already exists in the customerExportArray. 
-
           customerExport.push(customerObject);
           console.log(customerCount + " " + customerObject.name);
         }
