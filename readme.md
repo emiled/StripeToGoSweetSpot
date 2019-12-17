@@ -1,17 +1,15 @@
-# Exporting Stripe customer details formatted for GoSweetSpot 
+# Stripe Customers to CSV for GoSweetSpot import
 
-A nodeJS script that makes a request to the Stripe API, and exports your customers information into a .CSV file. The CSV is formatted to be imported into the GoSweetSpot platform, under the Bulk Print option.
+A nodeJS script that makes a request to the Stripe API, and exports your customer's information into a CSV file. <br>
+The CSV is formatted to be imported into the GoSweetSpot platform, under the Bulk Print option.
 
-
-A nodeJS script which creates a .CSV file with a list of customer information pulled from the Stripe API. The CSV is formatted to be imported into the GoSweetSpot platform, under the Bulk Print option.
-
-*note this script exports a customers object in a format for the platform GoSweetSpot, however you can update the customer object to suit your requirements.*
+*note this script exports the customers object in a format for the platform GoSweetSpot, however you can update the customer object to suit your requirements.*
 
 ## Getting Started
 
 Clone this repository, and run `yarn` or `npm install` from the new folder to install all required dependencies.
 
-Update the `getStripeCustomers.js` file with your Stripe Private Key (should start with sk_live_)
+Update  `getStripeCustomers.js`  with your Stripe Private Key (should start with sk_live_)
 
 
 ## Run node script
